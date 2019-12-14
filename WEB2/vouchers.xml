@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VouchersList
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.bsu.by"
+        xsi:schemaLocation="http://www.bsu.by xsd_schema.xsd">
+
+    <cruise>
+        <placeName>Malta</placeName>
+        <daysAmount>5</daysAmount>
+        <food>all</food>
+        <transport>cruiser</transport>
+        <price>100</price>
+        <peopleAmount>15</peopleAmount>
+        <cruiserName>Titanik</cruiserName>
+    </cruise>
+
+    <shopping>
+        <placeName>Minsk</placeName>
+        <daysAmount>5</daysAmount>
+        <food>all</food>
+        <transport>plane</transport>
+        <price>12</price>
+        <peopleAmount>5</peopleAmount>
+        <mallName>Stolitsa</mallName>
+    </shopping>
+
+    <vacation>
+        <placeName>Hawaii</placeName>
+        <daysAmount>10</daysAmount>
+        <food>vegan</food>
+        <transport>plane</transport>
+        <price>10</price>
+        <peopleAmount>2</peopleAmount>
+        <hotelName>Centr</hotelName>
+    </vacation>
+
+    <therapy>
+        <placeName>Hawaii</placeName>
+        <daysAmount>5</daysAmount>
+        <food>vegetarian</food>
+        <transport>bus</transport>
+        <price>3</price>
+        <peopleAmount>1</peopleAmount>
+        <mainProcedureName>lungs</mainProcedureName>
+    </therapy>
+
+</VouchersList>

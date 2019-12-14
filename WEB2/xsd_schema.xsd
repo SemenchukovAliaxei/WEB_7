@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.bsu.by"
+        xmlns="http://www.bsu.by"
+        elementFormDefault="qualified">
+
+    <xs:simpleType name="Food" final="restriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="vegetarian"/>
+            <xs:enumeration value="vegan"/>
+            <xs:enumeration value="all"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Transport" final="restriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="bus"/>
+            <xs:enumeration value="plane"/>
+            <xs:enumeration value="railway"/>
+            <xs:enumeration value="cruiser"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Voucher" abstract="true">
+        <xs:sequence>
+            <xs:element name="placeName" type="xs:string"/>
+            <xs:element name="daysAmount" type="xs:int"/>
+            <xs:element name="food" type="Food"/>
+            <xs:element name="transport" type="Transport"/>
+            <xs:element name="price" type="xs:int"/>
+            <xs:element name="peopleAmount" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Cruise">
+        <xs:complexContent>
+            <xs:extension base="Voucher">
+                <xs:sequence>
+                    <xs:element name="cruiserName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Excursion">
+        <xs:complexContent>
+            <xs:extension base="Voucher">
+                <xs:sequence>
+                    <xs:element name="guideName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Shopping">
+        <xs:complexContent>
+            <xs:extension base="Voucher">
+                <xs:sequence>
+                    <xs:element name="mallName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Therapy">
+        <xs:complexContent>
+            <xs:extension base="Voucher">
+                <xs:sequence>
+                    <xs:element name="mainProcedureName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Vacation">
+        <xs:complexContent>
+            <xs:extension base="Voucher">
+                <xs:sequence>
+                    <xs:element name="hotelName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="VouchersList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="shopping" type="Shopping"/>
+                    <xs:element name="cruise" type="Cruise"/>
+                    <xs:element name="therapy" type="Therapy"/>
+                    <xs:element name="vacation" type="Vacation"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

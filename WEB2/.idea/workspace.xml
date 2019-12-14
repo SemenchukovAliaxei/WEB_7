@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70e7200e-6e9e-4221-adc7-83286211e64d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/xml/XMLValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/xml/parser/DOMParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/xml/parser/SAXParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/xml/parser/StAXParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/xml/parser/VouchersParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Enums/ParsingModeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vouchers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xsd_schema.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ВЭБ/Controller/VoucherManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ВЭБ/Controller/VoucherManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ВЭБ/Controller/VoucherManager$lookUpBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ВЭБ/Controller/VoucherManager$lookUpBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ВЭБ/Controller/VoucherManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ВЭБ/Controller/VoucherManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ВЭБ/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ВЭБ/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ВЭБ/Model/Enums/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ВЭБ/Model/Enums/Food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ВЭБ/Model/Enums/Transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ВЭБ/Model/Enums/Transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/VoucherManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/VoucherManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Enums/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Enums/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Enums/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Enums/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ВЭБ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ВЭБ.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WEB2$Main.ic" NAME="Main Coverage Results" MODIFIED="1568212745042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="772109725">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="java" value="5707" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5707" />
+          <entry key="PLAIN_TEXT" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2083738669">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="886923262">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="27" />
+          <entry key="log" value="2" />
+          <entry key="xml" value="2" />
+          <entry key="xsd" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="27" />
+          <entry key="Log" value="2" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="744" />
+          <entry key="xml" value="62" />
+          <entry key="xsd" value="134" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="744" />
+          <entry key="XML" value="196" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activityLog.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Voucher.java" />
+        <option value="$PROJECT_DIR$/src/Model/Transport.java" />
+        <option value="$PROJECT_DIR$/src/Model/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/Model/Business.java" />
+        <option value="$PROJECT_DIR$/src/Model/VoucherFactory.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Comparator/VoucherNameComparator.java" />
+        <option value="$PROJECT_DIR$/src/VoucherManager.java" />
+        <option value="$PROJECT_DIR$/src/Model/Vacation.java" />
+        <option value="$PROJECT_DIR$/src/Model/Cruise.java" />
+        <option value="$PROJECT_DIR$/src/Model/Shopping.java" />
+        <option value="$PROJECT_DIR$/src/Model/Excursion.java" />
+        <option value="$PROJECT_DIR$/src/Model/Therapy.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Comparator/VoucherDaysAmountComparator.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Comparator/VoucherPeopleAmountComparator.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Comparator/VoucherPlaceNameComparator.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Comparator/VoucherPriceComparator.java" />
+        <option value="$PROJECT_DIR$/src/vouchers.xml" />
+        <option value="$PROJECT_DIR$/src/xsd_schema.xsd" />
+        <option value="$PROJECT_DIR$/src/Model/Voucher.java" />
+        <option value="$PROJECT_DIR$/src/Model/Enums/Food.java" />
+        <option value="$PROJECT_DIR$/src/Model/Enums/Transport.java" />
+        <option value="$PROJECT_DIR$/xsd_schema.xsd" />
+        <option value="$PROJECT_DIR$/medicines.xml" />
+        <option value="$PROJECT_DIR$/src/Controller/xml/parser/MedicinesParser.java" />
+        <option value="$PROJECT_DIR$/src/Controller/xml/parser/VouchersParser.java" />
+        <option value="$PROJECT_DIR$/src/Controller/xml/parser/DOMParser.java" />
+        <option value="$PROJECT_DIR$/src/Controller/xml/parser/SAXParser.java" />
+        <option value="$PROJECT_DIR$/src/Controller/xml/XMLValidator.java" />
+        <option value="$PROJECT_DIR$/src/Controller/xml/parser/StAXParser.java" />
+        <option value="$PROJECT_DIR$/src/Model/Enums/ParsingModeEnum.java" />
+        <option value="$PROJECT_DIR$/src/Controller/VoucherManager.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/activityLog.log" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1615" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576334897516" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/log4j-1.2.17.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\универ\5 сем\BSU\WEB\WEB2\src" />
+      <recent name="C:\Users\Alex\Desktop\универ\5 сем\BSU\WEB\WEB2\src\Controller" />
+      <recent name="C:\Users\Alex\Desktop\универ\5 сем\BSU\WEB\WEB2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ВЭБ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70e7200e-6e9e-4221-adc7-83286211e64d" name="Default Changelist" comment="" />
+      <created>1568187843305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568187843305</updated>
+      <workItem from="1568187844772" duration="17728000" />
+      <workItem from="1568227154031" duration="46000" />
+      <workItem from="1568367908878" duration="3641000" />
+      <workItem from="1568455243168" duration="10046000" />
+      <workItem from="1568629882244" duration="6731000" />
+      <workItem from="1569258142237" duration="8329000" />
+      <workItem from="1569850608193" duration="34000" />
+      <workItem from="1576328873796" duration="6019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52574000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.197479" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.38791946" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Model/VoucherFactory.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Comparator/VoucherDaysAmountComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Comparator/VoucherPeopleAmountComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Comparator/VoucherPlaceNameComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Comparator/VoucherPriceComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FX.java" />
+    <entry file="file://$PROJECT_DIR$/src/vouchers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xsd_schema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Enums/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Enums/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Voucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/xml/parser/VouchersParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Cruise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Excursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Shopping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Therapy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Vacation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/xml/XMLValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xsd_schema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1109">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vouchers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Enums/ParsingModeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/VoucherManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/xml/parser/SAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="163" column="26" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="163" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/xml/parser/StAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="27" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/xml/parser/DOMParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activityLog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ВЭБ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

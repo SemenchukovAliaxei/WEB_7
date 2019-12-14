@@ -1,0 +1,18 @@
+14 дек 2019 17:47:56,106 main - Validation succeed
+14 дек 2019 17:47:56,111 main - Starting DOM parsing
+14 дек 2019 17:47:56,143 main - Finished DOM parsing
+14 дек 2019 17:47:56,144 main - Voucher: place Malta, price 100, amount of people 15, days amount 5, food all, transport cruiser, cruiser name Titanik
+14 дек 2019 17:47:56,144 main - Voucher: place Minsk, price 12, amount of people 5, days amount 5, food all, transport plane, mall name Stolitsa
+14 дек 2019 17:47:56,144 main - Voucher: place Hawaii, price 3, amount of people 1, days amount 5, food vegetarian, transport bus, main procedure name lungs
+14 дек 2019 17:47:56,144 main - Voucher: place Hawaii, price 10, amount of people 2, days amount 10, food vegan, transport plane, hotel name Centr
+14 дек 2019 17:47:56,146 main - Starting SAX parsing
+14 дек 2019 17:47:56,155 main - Finish SAX parsing
+14 дек 2019 17:47:56,155 main - Voucher: place Malta, price 100, amount of people 15, days amount 5, food all, transport cruiser, cruiser name Titanik
+14 дек 2019 17:47:56,155 main - Voucher: place Minsk, price 12, amount of people 5, days amount 5, food all, transport plane, mall name Stolitsa
+14 дек 2019 17:47:56,155 main - Voucher: place Hawaii, price 10, amount of people 2, days amount 10, food vegan, transport plane, hotel name Centr
+14 дек 2019 17:47:56,155 main - Voucher: place Hawaii, price 3, amount of people 1, days amount 5, food vegetarian, transport bus, main procedure name lungs
+14 дек 2019 17:47:56,156 main - Starting StAX parsing
+14 дек 2019 17:47:56,213 main - Voucher: place Malta, price 100, amount of people 15, days amount 5, food all, transport cruiser, cruiser name Titanik
+14 дек 2019 17:47:56,214 main - Voucher: place Minsk, price 12, amount of people 5, days amount 5, food all, transport plane, mall name Stolitsa
+14 дек 2019 17:47:56,214 main - Voucher: place Hawaii, price 10, amount of people 2, days amount 10, food vegan, transport plane, hotel name Centr
+14 дек 2019 17:47:56,214 main - Voucher: place Hawaii, price 3, amount of people 1, days amount 5, food vegetarian, transport bus, main procedure name lungs
